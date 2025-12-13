@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 21 * * *"  # chạy 4h sáng 
     - cron: "0 7 * * *"   # chạy 10h sáng 
-    - cron: "0 14 * * *"   # chạy 4h chiều 
+    - cron: "0 14 * * *"   # chạy 4h chiều
     
   workflow_dispatch: {}
 
